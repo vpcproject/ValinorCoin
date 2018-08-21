@@ -260,6 +260,6 @@
     </message>
     </context>
 <context>
-    <name>lightpaycoin-core</name>
+    <name>valinorcoin-core</name>
     </context>
 </TS>

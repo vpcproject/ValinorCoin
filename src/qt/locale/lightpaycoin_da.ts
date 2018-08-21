@@ -239,7 +239,7 @@
         <translation>BIP 38 kryptografering</translation>
     </message>
     <message>
-        <source>Enter a Lightpaycoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Indtast den ValinorCoin adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
     </message>
     <message>
@@ -606,7 +606,7 @@
         <translation>Send mønter til en ValinorCoin adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lightpaycoin: URIs)</source>
+        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
         <translation>Anmod om betaling (genrerer QR kode og ValinorCoin URL)</translation>
     </message>
     <message>
@@ -813,8 +813,8 @@ Adresse: %4
         <translation>Tekstmærke</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (lightpaycoin.conf).</source>
-        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (lightpaycoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).</source>
+        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (valinorcoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1695,9 +1695,9 @@ Kontroller adressen og prøv igen.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations</source>
+https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</source>
         <translation>Det valgte sprog mangler, eller oversættelsen er mangelfuld. Hjælp ved at bidrage med oversættelser her:
-https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations</translation>
+https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2059,7 +2059,7 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Ugyldig betalingsadresse: %1</translation>
     </message>
     <message>
-        <source>Cannot start lightpaycoin: click-to-pay handler</source>
+        <source>Cannot start valinorcoin: click-to-pay handler</source>
         <translation>Kan ikke starte ValinorCoin "klik for at betale" systemet</translation>
     </message>
     <message>
@@ -3835,7 +3835,7 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
     </message>
 </context>
 <context>
-    <name>lightpaycoin-core</name>
+    <name>valinorcoin-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>
@@ -4034,10 +4034,10 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Dette produkt anvender software udviklet i OpenSSL projektet til brug i OpenSSL værktøjssættet &lt;https://www.openssl.org/&gt; og kryptosoftware skrevet afEric Young og UPnP software skrevet af Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use lightpaycoind, or the -server option to lightpaycoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use valinorcoind, or the -server option to valinorcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=lightpaycoinrpc
+rpcuser=valinorcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -4045,10 +4045,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "ValinorCoin Alert" admin@foo.com
 </source>
-        <translation>For at bruge lightpaycoind eller -server muligheden sammen med lightpaycoin-qt skal der angives et rpc kodeord i konfigurationsfilen:
+        <translation>For at bruge valinorcoind eller -server muligheden sammen med valinorcoin-qt skal der angives et rpc kodeord i konfigurationsfilen:
 %s
 De anbefales at benytte følgende tilfældige kodeord
-Rpcuser=lightpaycoinrpc
+Rpcuser=valinorcoinrpc
 rpcpasswrd=%s
 (Det er ikke nødvendigt at huske dette kodeord)
 Brugernavn og kodeord MÅ IKKE VÆRE ENS!

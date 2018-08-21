@@ -37,12 +37,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_lightpaycoin">res/icons/unit_lightpaycoin.png</file>
-        <file alias="unit_mlightpaycoin">res/icons/unit_mlightpaycoin.png</file>
-        <file alias="unit_ulightpaycoin">res/icons/unit_ulightpaycoin.png</file>
-        <file alias="unit_tlightpaycoin">res/icons/unit_tlightpaycoin.png</file>
-        <file alias="unit_tmlightpaycoin">res/icons/unit_tmlightpaycoin.png</file>
-        <file alias="unit_tulightpaycoin">res/icons/unit_tulightpaycoin.png</file>
+        <file alias="unit_valinorcoin">res/icons/unit_valinorcoin.png</file>
+        <file alias="unit_mvalinorcoin">res/icons/unit_mvalinorcoin.png</file>
+        <file alias="unit_uvalinorcoin">res/icons/unit_uvalinorcoin.png</file>
+        <file alias="unit_tvalinorcoin">res/icons/unit_tvalinorcoin.png</file>
+        <file alias="unit_tmvalinorcoin">res/icons/unit_tmvalinorcoin.png</file>
+        <file alias="unit_tuvalinorcoin">res/icons/unit_tuvalinorcoin.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -58,7 +58,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="lightpaycoin_logo_horizontal">res/images/lightpaycoin_logo_horizontal.png</file>
+        <file alias="valinorcoin_logo_horizontal">res/images/valinorcoin_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow.png</file>
         <file alias="downArrow_small">res/images/downArrow_small.png</file>
         <file alias="upArrow_small">res/images/upArrow_small.png</file>

@@ -3,7 +3,7 @@ ValinorCoin Core
 
 Setup
 ---------------------
-[ValinorCoin Core](http://lightpaycoin.org/wallet) is the original ValinorCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of ValinorCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[ValinorCoin Core](http://valinorcoin.org/wallet) is the original ValinorCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of ValinorCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -13,12 +13,12 @@ The following are some helpful notes on how to run ValinorCoin on your native pl
 
 Unpack the files into a directory and run:
 
-- bin/32/lightpaycoin-qt (GUI, 32-bit) or bin/32/lightpaycoind (headless, 32-bit)
-- bin/64/lightpaycoin-qt (GUI, 64-bit) or bin/64/lightpaycoind (headless, 64-bit)
+- bin/32/valinorcoin-qt (GUI, 32-bit) or bin/32/valinorcoind (headless, 32-bit)
+- bin/64/valinorcoin-qt (GUI, 64-bit) or bin/64/valinorcoind (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run lightpaycoin-qt.exe.
+Unpack the files into a directory, and then run valinorcoin-qt.exe.
 
 ### OSX
 
@@ -28,8 +28,8 @@ Drag ValinorCoin-Qt to your applications folder, and then run ValinorCoin-Qt.
 
 * See the documentation at the [ValinorCoin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [ValinorCoin Forum](http://forum.lightpaycoin.org/).
-* Join one of our Slack groups [ValinorCoin Slack Groups](https://lightpaycoin.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [ValinorCoin Forum](http://forum.valinorcoin.org/).
+* Join one of our Slack groups [ValinorCoin Slack Groups](https://valinorcoin.org/slack-logins/).
 
 Building
 ---------------------
@@ -41,7 +41,7 @@ The following are developer notes on how to build ValinorCoin on your native pla
 
 Development
 ---------------------
-The Lightpaycoin repo's [root README](https://github.com/ValinorCoin-Project/ValinorCoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Valinorcoin repo's [root README](https://github.com/ValinorCoin-Project/ValinorCoin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,8 @@ The Lightpaycoin repo's [root README](https://github.com/ValinorCoin-Project/Val
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [ValinorCoin](http://forum.lightpaycoin.org/) forum.
-* Join the [ValinorCoin-Dev](https://lightpaycoin-dev.slack.com/) Slack group ([Sign-Up](https://lightpaycoin-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [ValinorCoin](http://forum.valinorcoin.org/) forum.
+* Join the [ValinorCoin-Dev](https://valinorcoin-dev.slack.com/) Slack group ([Sign-Up](https://valinorcoin-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

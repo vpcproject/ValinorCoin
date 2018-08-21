@@ -235,7 +235,7 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a Lightpaycoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Введите ValinorCoin адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
@@ -602,7 +602,7 @@
         <translation>Отправить монеты на ValinorCoin адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lightpaycoin: URIs)</source>
+        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
         <translation>Запросить платежи (генерирует QR-код и ValinorCoin: URI)</translation>
     </message>
     <message>
@@ -837,8 +837,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (lightpaycoin.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (lightpaycoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (valinorcoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1719,9 +1719,9 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations</source>
+https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations</translation>
+https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2080,8 +2080,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start lightpaycoin: click-to-pay handler</source>
-        <translation>Не удалось запустить lightpaycoin: обработчик click-to-pay </translation>
+        <source>Cannot start valinorcoin: click-to-pay handler</source>
+        <translation>Не удалось запустить valinorcoin: обработчик click-to-pay </translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid ValinorCoin address or malformed URI parameters.</source>
@@ -3181,7 +3181,7 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
     </message>
     </context>
 <context>
-    <name>lightpaycoin-core</name>
+    <name>valinorcoin-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>

@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/lightpaycoin-config.h"
+#include "config/valinorcoin-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -76,11 +76,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizeLightpaycoinAmount"))
-        settings.setValue("nAnonymizeLightpaycoinAmount", 1000);
+    if (!settings.contains("nAnonymizeValinorcoinAmount"))
+        settings.setValue("nAnonymizeValinorcoinAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizeLightpaycoinAmount = settings.value("nAnonymizeLightpaycoinAmount").toLongLong();
+    nAnonymizeValinorcoinAmount = settings.value("nAnonymizeValinorcoinAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -147,8 +147,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeLightpaycoinAmount"))
-        SoftSetArg("-anonymizelightpaycoinamount", settings.value("nAnonymizeLightpaycoinAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeValinorcoinAmount"))
+        SoftSetArg("-anonymizevalinorcoinamount", settings.value("nAnonymizeValinorcoinAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -159,7 +159,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in lightpaycoin.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in valinorcoin.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -228,8 +228,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizeLightpaycoinAmount:
-            return QVariant(nAnonymizeLightpaycoinAmount);
+        case AnonymizeValinorcoinAmount:
+            return QVariant(nAnonymizeValinorcoinAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -338,10 +338,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nObfuscationRounds", nObfuscationRounds);
             emit obfuscationRoundsChanged(nObfuscationRounds);
             break;
-        case AnonymizeLightpaycoinAmount:
-            nAnonymizeLightpaycoinAmount = value.toInt();
-            settings.setValue("nAnonymizeLightpaycoinAmount", nAnonymizeLightpaycoinAmount);
-            emit anonymizeLightpaycoinAmountChanged(nAnonymizeLightpaycoinAmount);
+        case AnonymizeValinorcoinAmount:
+            nAnonymizeValinorcoinAmount = value.toInt();
+            settings.setValue("nAnonymizeValinorcoinAmount", nAnonymizeValinorcoinAmount);
+            emit anonymizeValinorcoinAmountChanged(nAnonymizeValinorcoinAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

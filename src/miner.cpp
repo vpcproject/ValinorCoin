@@ -448,7 +448,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
     LogPrintf("ValinorCoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("lightpaycoin-miner");
+    RenameThread("valinorcoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);

@@ -25,7 +25,7 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called ValinorCoin (http://www.lightpaycoin.org),
+ * This is the developer documentation of the reference client for an experimental new digital currency called ValinorCoin (http://www.valinorcoin.org),
  * which enables instant payments to anyone, anywhere in the world. ValinorCoin uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
@@ -65,18 +65,18 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/lightpaycoin.conf are parsed in qt/lightpaycoin.cpp's main()
+    // If Qt is used, parameters/valinorcoin.conf are parsed in qt/valinorcoin.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Lightpaycoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Valinorcoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version")) {
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  lightpaycoind [options]                     " + _("Start Lightpaycoin Core Daemon") + "\n";
+                        "  valinorcoind [options]                     " + _("Start Valinorcoin Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -112,11 +112,11 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "lightpaycoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "valinorcoin:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in lightpaycoind anymore. Use the lightpaycoin-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in valinorcoind anymore. Use the valinorcoin-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
@@ -175,7 +175,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect lightpaycoind signal handlers
+    // Connect valinorcoind signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

@@ -470,7 +470,7 @@ void BlockExplorer::showEvent(QShowEvent*)
         updateNavButtons();
 
         if (!GetBoolArg("-txindex", false)) {
-            QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (lightpaycoin.conf).");
+            QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).");
             QMessageBox::warning(this, "ValinorCoin Core Blockchain Explorer", Warning, QMessageBox::Ok);
         }
     }

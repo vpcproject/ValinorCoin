@@ -239,7 +239,7 @@
         <translation>&amp;Encriptación BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Lightpaycoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Valinorcoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Introduzca la dirección ValinorCoin que querría encriptar usando BIP 38. Introduzca una contraseña en la caja central. Clickee en encriptar para computar la clave privada encriptada.</translation>
     </message>
     <message>
@@ -610,7 +610,7 @@
         <translation>Enviar coins a una dirección ValinorCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lightpaycoin: URIs)</source>
+        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -837,8 +837,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (lightpaycoin.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (lightpaycoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (valinorcoin.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (valinorcoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1719,9 +1719,9 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations</source>
+https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations</translation>
+https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2093,8 +2093,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start lightpaycoin: click-to-pay handler</source>
-        <translation>No se puede iniciar lightpaycoin: módulo click-to-pay</translation>
+        <source>Cannot start valinorcoin: click-to-pay handler</source>
+        <translation>No se puede iniciar valinorcoin: módulo click-to-pay</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid ValinorCoin address or malformed URI parameters.</source>
@@ -3885,7 +3885,7 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
     </message>
 </context>
 <context>
-    <name>lightpaycoin-core</name>
+    <name>valinorcoin-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1= mantener los metadatos tx p.e. dueño de la cuenta e información de la solicitud de pago, 2 = ignorar metadatos tx)</translation>
@@ -4083,10 +4083,10 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use lightpaycoind, or the -server option to lightpaycoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use valinorcoind, or the -server option to valinorcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=lightpaycoinrpc
+rpcuser=valinorcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -4094,10 +4094,10 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "ValinorCoin Alert" admin@foo.com
 </source>
-        <translation>Para usar lightpaycoind, o la opción -server de lightpaycoin-qt, debes definir un rpcpassword en el archivo de configuración:
+        <translation>Para usar valinorcoind, o la opción -server de valinorcoin-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
 Es recomendado que uses la siguiente contraseña aleatoria:
-rpcuser=lightpaycoin
+rpcuser=valinorcoin
 rpcrpcpassword=%s
 (No necesitas recordar esta contraseña)
 El nombre de usuario y contraseña NO DEBEN ser los mismos.

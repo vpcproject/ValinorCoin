@@ -526,8 +526,8 @@
         <translation>Wyślij monety do adresu ValinorCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lightpaycoin: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i lightpaycoin:URI)</translation>
+        <source>Request payments (generates QR codes and valinorcoin: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i valinorcoin:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1225,9 +1225,9 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations</source>
+https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations </translation>
+https://www.transifex.com/valinorcoin-project/valinorcoin-project-translations </translation>
     </message>
     <message>
         <source>Connect to the ValinorCoin network through a SOCKS5 proxy.</source>
@@ -2024,7 +2024,7 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
     </message>
     </context>
 <context>
-    <name>lightpaycoin-core</name>
+    <name>valinorcoin-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

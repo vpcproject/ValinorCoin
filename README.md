@@ -25,23 +25,23 @@ Cloning the repository and compiling (use any user with the sudo group):
     ./configure
     sudo make install
     cd src
-    sudo strip lightpaycoind
-    sudo strip lightpaycoin-cli
-    sudo strip lightpaycoin-tx
+    sudo strip valinorcoind
+    sudo strip valinorcoin-cli
+    sudo strip valinorcoin-tx
     cd ..
 
 Running the daemon:
 
-    lightpaycoind 
+    valinorcoind 
 
 Stopping the daemon:
 
-    lightpaycoin-cli stop
+    valinorcoin-cli stop
 
 Demon status:
 
-    lightpaycoin-cli getinfo
-    lightpaycoin-cli mnsync status
+    valinorcoin-cli getinfo
+    valinorcoin-cli mnsync status
 
 All binaries for different operating systems, you can download in the releases repository:
 

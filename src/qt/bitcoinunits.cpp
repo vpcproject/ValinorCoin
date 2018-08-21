@@ -42,11 +42,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case VPC:
-        return QString("lightpaycoin");
+        return QString("valinorcoin");
     case mVPC:
-        return QString("mlightpaycoin");
+        return QString("mvalinorcoin");
     case uVPC:
-        return QString::fromUtf8("ulightpaycoin");
+        return QString::fromUtf8("uvalinorcoin");
     default:
         return QString("???");
     }

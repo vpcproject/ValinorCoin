@@ -12,8 +12,8 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via SwiftTX
 
 This mechanism has been integrated into Bitcore-Node-ValinorCoin which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/ValinorCoin-Project/insight-api-lightpaycoin#web-socket-api](https://github.com/ValinorCoin-Project/insight-api-lightpaycoin#web-socket-api) 
-* API: [https://github.com/ValinorCoin-Project/insight-api-lightpaycoin#swifttx-transactions](https://github.com/ValinorCoin-Project/insight-api-lightpaycoin#swifttx-transactions) 
+* WebSocket: [https://github.com/ValinorCoin-Project/insight-api-valinorcoin#web-socket-api](https://github.com/ValinorCoin-Project/insight-api-valinorcoin#web-socket-api) 
+* API: [https://github.com/ValinorCoin-Project/insight-api-valinorcoin#swifttx-transactions](https://github.com/ValinorCoin-Project/insight-api-valinorcoin#swifttx-transactions) 
 
 ####Command line option
 
