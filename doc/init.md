@@ -89,7 +89,7 @@ use old versions of Upstart and do not supply the start-stop-daemon uitility.
 Copy lightpaycoind.init to /etc/init.d/lightpaycoind. Test by running "service lightpaycoind start".
 
 Using this script, you can adjust the path and flags to the lightpaycoind program by
-setting the LightPayCoinD and FLAGS environment variables in the file
+setting the ValinorCoinD and FLAGS environment variables in the file
 /etc/sysconfig/lightpaycoind. You can also use the DAEMONOPTS environment variable here.
 
 5. Auto-respawn

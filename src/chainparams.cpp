@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The LightPayCoin developers
+// Copyright (c) 2018 The ValinorCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -57,7 +57,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (0, uint256("00000dfdec6a9190b26520e93ef5eba15a82646a47ddf8fb5be4477a836467ee"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1524873600, // * UNIX timestamp of last checkpoint block
+    1534852800, // * UNIX timestamp of last checkpoint block
     0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -67,7 +67,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1524873600,
+    1534852800,
     0,
     250};
 
@@ -75,7 +75,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1524873600,
+    1534852800,
     0,
     100};
 
@@ -91,27 +91,27 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x6e;
-        pchMessageStart[1] = 0x72;
-        pchMessageStart[2] = 0x4f;
-        pchMessageStart[3] = 0x5a;
+        pchMessageStart[0] = 0xf8;
+        pchMessageStart[1] = 0xa8;
+        pchMessageStart[2] = 0x6c;
+        pchMessageStart[3] = 0x3b;
         vAlertPubKey = ParseHex("040d75796902e3eda97815d744328237872309a95b42a74b22d7580e56b086fbc19ae1d6ef30c9e27d060c9c48692a663b9a321161e19f853ca6a6499cba7d17f6");
-        nDefaultPort = 39797;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // LightPayCoin starting difficulty is 1 / 2^12
+        nDefaultPort = 39777;
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // ValinorCoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // LightPayCoin: 1 day
-        nTargetSpacing = 1 * 60;  // LightPayCoin: 1 minute
-        nLastPOWBlock = 90;
+        nTargetTimespan = 1 * 60; // ValinorCoin: 1 day
+        nTargetSpacing = 1 * 60;  // ValinorCoin: 1 minute
+        nLastPOWBlock = 900;
         nMaturity = 50;
         nMasternodeCountDrift = 20;
-        nMasternodeCollateralLimit = 1000;
+        nMasternodeCollateralLimit = 50000;
         nModifierUpdateBlock = 615800;
-        nMaxMoneyOut = 21000000 * COIN;
+        nMaxMoneyOut = 6500000 * COIN;
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -123,7 +123,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "If you read this line in our code, then you are a genius, but why do you need it?!";
+        const char* pszTimestamp = "It is a coin for an economic game system built on the chain of Valinorcoin blocks!";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -134,7 +134,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1524873600;
+        genesis.nTime = 1534852800;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 2394236;
 
@@ -142,8 +142,8 @@ public:
         assert(hashGenesisBlock == uint256("00000dfdec6a9190b26520e93ef5eba15a82646a47ddf8fb5be4477a836467ee"));
         assert(genesis.hashMerkleRoot == uint256("98a0c0dc8214278a8a27ce9d7ca4107dd7cd6787ea6001d3d6c1a7b764098570"));
 
-        vSeeds.push_back(CDNSSeedData("80.211.202.181", "80.211.202.181"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("94.177.187.54", "94.177.187.54"));           // Single node address
+        vSeeds.push_back(CDNSSeedData("89.223.89.251", "89.223.89.251"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("89.223.89.252", "89.223.89.252"));           // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 49);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -169,7 +169,7 @@ public:
         strSporkKey = "04b8a44c0467e07b59aacede1352cff10d7f194b1a09bd1bc62847b3e29f9f0a340ddc8f9c29423f27e0ec3b29e6b1f9127db303b0cad8f3b83ab8b1b52f61bac4";
         strObfuscationPoolDummyAddress = "Lo3fnibtjwvqYE1T7Lce5uYbdt3pf6PKUu";
 		
-        nStartMasternodePayments = 1524873600; //Wed, 25 Jun 2014 20:36:16 GMT
+        nStartMasternodePayments = 1534852800; //Wed, 25 Jun 2014 20:36:16 GMT
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
@@ -189,18 +189,18 @@ public:
     {
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
-        pchMessageStart[0] = 0x41;
-        pchMessageStart[1] = 0x4d;
-        pchMessageStart[2] = 0x5e;
-        pchMessageStart[3] = 0x78;
+        pchMessageStart[0] = 0x05;
+        pchMessageStart[1] = 0xcf;
+        pchMessageStart[2] = 0x23;
+        pchMessageStart[3] = 0x7f;
         vAlertPubKey = ParseHex("043e8760d1c9ef3af5a5e49796afe4389a5cb53c6028b54b9af0a152f34762e453615a1aab9260a31045b85f87d4de36bbe6fd04478fcc103fd47c8e1b813c3d3c");
-        nDefaultPort = 39795;
+        nDefaultPort = 39775;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // LightPayCoin: 1 day
-        nTargetSpacing = 1 * 60;  // LightPayCoin: 1 minute
+        nTargetTimespan = 1 * 60; // ValinorCoin: 1 day
+        nTargetSpacing = 1 * 60;  // ValinorCoin: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
@@ -209,7 +209,7 @@ public:
         nMaxMoneyOut = 43199500 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1524873600;
+        genesis.nTime = 1534852800;
         genesis.nNonce = 2394236;
 
         hashGenesisBlock = genesis.GetHash();
@@ -245,7 +245,7 @@ public:
         nPoolMaxTransactions = 2;
         strSporkKey = "04cded1204a57acd6280c8499b7a2df052609dbf96546453984d632204d651d72a37013edc9d115e5a385e100eb7e867923fdd0bb7d9dc31aa1eb9d59b00c76697";
         strObfuscationPoolDummyAddress = "xxVKdbxVogrXrPLMo2qEEyCm1GRv2KZCLy";
-        nStartMasternodePayments = 1524873600; //Fri, 09 Jan 2015 21:05:58 GMT
+        nStartMasternodePayments = 1534852800; //Fri, 09 Jan 2015 21:05:58 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -265,24 +265,24 @@ public:
         networkID = CBaseChainParams::REGTEST;
         strNetworkID = "regtest";
         strNetworkID = "regtest";
-        pchMessageStart[0] = 0x2d;
-        pchMessageStart[1] = 0x53;
-        pchMessageStart[2] = 0x6f;
-        pchMessageStart[3] = 0x40;
+        pchMessageStart[0] = 0xde;
+        pchMessageStart[1] = 0xca;
+        pchMessageStart[2] = 0x4b;
+        pchMessageStart[3] = 0x0d;
         nSubsidyHalvingInterval = 150;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // LightPayCoin: 1 day
-        nTargetSpacing = 1 * 60;        // LightPayCoin: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // ValinorCoin: 1 day
+        nTargetSpacing = 1 * 60;        // ValinorCoin: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1524873600;
+        genesis.nTime = 1534852800;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 906460;
 
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 39793;
+        nDefaultPort = 39773;
         assert(hashGenesisBlock == uint256("00000d885e2813770fd59e71010b6b62a9b0609655109bf4e1b24c3bd524ae0c"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
@@ -313,7 +313,7 @@ public:
     {
         networkID = CBaseChainParams::UNITTEST;
         strNetworkID = "unittest";
-        nDefaultPort = 39791;
+        nDefaultPort = 39771;
         vFixedSeeds.clear(); //! Unit test mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Unit test mode doesn't have any DNS seeds.
 

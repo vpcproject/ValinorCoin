@@ -152,16 +152,16 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>LightPayCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LPCs from being stolen by malware infecting your computer.</source>
-        <translation>LightPayCoin va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos LPCs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
+        <translation>ValinorCoin va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos VPCs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LPC&lt;/b&gt;!</source>
-        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS LPC&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
+        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS VPC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -219,8 +219,8 @@
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>L'adresse LightPayCoin avec laquelle signer le message</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>L'adresse ValinorCoin avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse LightPayCoin</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse ValinorCoin</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>L'adresse LightPayCoin avec laquelle le message a été signé</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>L'adresse ValinorCoin avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse LightPayCoin renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse ValinorCoin renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a LightPayCoin address</source>
-        <translation>Envoyer des pièces à une adresse LightPayCoin</translation>
+        <source>Send coins to a ValinorCoin address</source>
+        <translation>Envoyer des pièces à une adresse ValinorCoin</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for LightPayCoin</source>
-        <translation>Modifier les options de configuration pour LightPayCoin</translation>
+        <source>Modify configuration options for ValinorCoin</source>
+        <translation>Modifier les options de configuration pour ValinorCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your LightPayCoin addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse LightPayCoin pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse ValinorCoin pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LightPayCoin addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse LightPayCoin spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse ValinorCoin spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -854,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LightPayCoin address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse LightPayCoin valide</translation>
+        <source>The entered address "%1" is not a valid ValinorCoin address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse ValinorCoin valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1038,32 +1038,32 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Veuillez sélectionner un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 LPC</source>
-        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 LPC</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 VPC</source>
+        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 VPC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 LPC</source>
-        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 LPC</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 VPC</source>
+        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 VPC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utiliser 16 masternodes différentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 LPC to anonymize 10000 LPC</source>
-        <translation>Cette option est la plus rapide, et coutera ~0.025 LPC pour anonymiser 10000 LPC</translation>
+        <source>This option is the quickest and will cost about ~0.025 VPC to anonymize 10000 VPC</source>
+        <translation>Cette option est la plus rapide, et coutera ~0.025 VPC pour anonymiser 10000 VPC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 LPC to anonymize 10000 LPC</source>
-        <translation>Cette option est moyennement rapide, et coutera 0.05 LPC pour anonymiser 10000 LPC</translation>
+        <source>This option is moderately fast and will cost about 0.05 VPC to anonymize 10000 VPC</source>
+        <translation>Cette option est moyennement rapide, et coutera 0.05 VPC pour anonymiser 10000 VPC</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Il s'agit de l'option la plus lente est la plus sécurisé. Utiliser l'anonymat maximum coutera</translation>
     </message>
     <message>
-        <source>0.1 LPC per 10000 LPC you anonymize.</source>
-        <translation>0.1 LPC par 10000 LPC vous anonymisez.</translation>
+        <source>0.1 VPC per 10000 VPC you anonymize.</source>
+        <translation>0.1 VPC par 10000 VPC vous anonymisez.</translation>
     </message>
     </context>
 <context>
@@ -1370,8 +1370,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Après commission</translation>
     </message>
     <message>
-        <source>0 LPC</source>
-        <translation>0 LPC</translation>
+        <source>0 VPC</source>
+        <translation>0 VPC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1461,8 +1461,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to send the payment to</source>
-        <translation>L'adresse LightPayCoin à laquelle envoyer le paiement</translation>
+        <source>The ValinorCoin address to send the payment to</source>
+        <translation>L'adresse ValinorCoin à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1507,8 +1507,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>L'adresse LightPayCoin avec laquelle signer le message</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>L'adresse ValinorCoin avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1535,16 +1535,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse LightPayCoin</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse ValinorCoin</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>L'adresse LightPayCoin avec laquelle le message a été signé</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>L'adresse ValinorCoin avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse LightPayCoin renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse ValinorCoin renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

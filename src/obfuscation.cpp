@@ -1,6 +1,6 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The LightPayCoin developers
+// Copyright (c) 2018 The ValinorCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -38,7 +38,7 @@ map<uint256, CObfuscationBroadcastTx> mapObfuscationBroadcastTxes;
 // Keep track of the active Masternode
 CActiveMasternode activeMasternode;
 
-/* *** BEGIN OBFUSCATION MAGIC - LPC **********
+/* *** BEGIN OBFUSCATION MAGIC - VPC **********
     Copyright (c) 2014-2015, Dash Developers
         eduffield - evan@dashpay.io
         udjinm6   - udjinm6@dashpay.io
@@ -778,9 +778,9 @@ void CObfuscationPool::ChargeRandomFees()
 
                 Being that Obfuscation has "no fees" we need to have some kind of cost associated
                 with using it to stop abuse. Otherwise it could serve as an attack vector and
-                allow endless transaction that would bloat LightPayCoin and make it unusable. To
+                allow endless transaction that would bloat ValinorCoin and make it unusable. To
                 stop these kinds of attacks 1 in 10 successful transactions are charged. This
-                adds up to a cost of 0.001 LPC per transaction on average.
+                adds up to a cost of 0.001 VPC per transaction on average.
             */
             if (r <= 10) {
                 LogPrintf("CObfuscationPool::ChargeRandomFees -- charging random fees. %u\n", i);
@@ -1916,10 +1916,10 @@ void CObfuscationPool::GetDenominationsToString(int nDenom, std::string& strDeno
 {
     // Function returns as follows:
     //
-    // bit 0 - 100LPC+1 ( bit on if present )
-    // bit 1 - 10LPC+1
-    // bit 2 - 1LPC+1
-    // bit 3 - .1LPC+1
+    // bit 0 - 100VPC+1 ( bit on if present )
+    // bit 1 - 10VPC+1
+    // bit 2 - 1VPC+1
+    // bit 3 - .1VPC+1
     // bit 3 - non-denom
 
 
@@ -1989,10 +1989,10 @@ int CObfuscationPool::GetDenominations(const std::vector<CTxOut>& vout, bool fSi
 
     // Function returns as follows:
     //
-    // bit 0 - 100LPC+1 ( bit on if present )
-    // bit 1 - 10LPC+1
-    // bit 2 - 1LPC+1
-    // bit 3 - .1LPC+1
+    // bit 0 - 100VPC+1 ( bit on if present )
+    // bit 1 - 10VPC+1
+    // bit 2 - 1VPC+1
+    // bit 3 - .1VPC+1
 
     return denom;
 }

@@ -62,11 +62,11 @@
         <translation>Modtageradresse</translation>
     </message>
     <message>
-        <source>These are your LightPayCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dine adresser til at sende betalinger med. Kontroller altid både beløb og modtageradresse før afsendelse.</translation>
     </message>
     <message>
-        <source>These are your LightPayCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine modtager adresser. Det anbefales at anvende en ny adresse til hver transaktion</translation>
     </message>
     <message>
@@ -176,16 +176,16 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>LightPayCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LPCs from being stolen by malware infecting your computer.</source>
-        <translation>LightPayCoin vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
+        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
+        <translation>ValinorCoin vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Er du sikker på, at du vil kryptere din tegnebog?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LPC&lt;/b&gt;!</source>
-        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE LPC&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
+        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE VPC&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -240,15 +240,15 @@
     </message>
     <message>
         <source>Enter a Lightpaycoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Indtast den LightPayCoin adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
+        <translation>Indtast den ValinorCoin adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>Den LightPayCoin adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>Den ValinorCoin adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne LightPayCoin adresse.</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne ValinorCoin adresse.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Indtast den krypterede BIP 38 nøgle. Indtast kodeordet i den midterste boks. Klik på dekryptér for at generere den private nøgle. Når nøglen er dekrypteret vil klip på "importér adresse" overføre den private nøgle til tegnebogen.</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne LightPayCoin adresse</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne ValinorCoin adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige LightPayCoin adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige ValinorCoin adresse.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Værktøjslinier</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin kerne</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin kerne</translation>
     </message>
     <message>
-        <source>Send coins to a LightPayCoin address</source>
-        <translation>Send mønter til en LightPayCoin adresse</translation>
+        <source>Send coins to a ValinorCoin address</source>
+        <translation>Send mønter til en ValinorCoin adresse</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lightpaycoin: URIs)</source>
-        <translation>Anmod om betaling (genrerer QR kode og LightPayCoin URL)</translation>
+        <translation>Anmod om betaling (genrerer QR kode og ValinorCoin URL)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Vis masternoder</translation>
     </message>
     <message>
-        <source>&amp;About LightPayCoin Core</source>
-        <translation>&amp;Om LightPayCoin kerne</translation>
+        <source>&amp;About ValinorCoin Core</source>
+        <translation>&amp;Om ValinorCoin kerne</translation>
     </message>
     <message>
-        <source>Show information about LightPayCoin Core</source>
-        <translation>Vis information om LightPayCoin kerne</translation>
+        <source>Show information about ValinorCoin Core</source>
+        <translation>Vis information om ValinorCoin kerne</translation>
     </message>
     <message>
-        <source>Modify configuration options for LightPayCoin</source>
-        <translation>Ret konfigurationsindstillinger for LightPayCoin</translation>
+        <source>Modify configuration options for ValinorCoin</source>
+        <translation>Ret konfigurationsindstillinger for ValinorCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your LightPayCoin addresses to prove you own them</source>
-        <translation>Underskriv beskeder med Deres LightPayCoin adresser for at bekræfte at De ejer dem.</translation>
+        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
+        <translation>Underskriv beskeder med Deres ValinorCoin adresser for at bekræfte at De ejer dem.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LightPayCoin addresses</source>
-        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne LightPayCoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
+        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne ValinorCoin adresse</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>ÅbnMasternode konfigurationsfil</translation>
     </message>
     <message>
-        <source>Open a LightPayCoin: URI or payment request</source>
-        <translation>Åbn en LightPayCoin URl eller betalingsanmodning</translation>
+        <source>Open a ValinorCoin: URI or payment request</source>
+        <translation>Åbn en ValinorCoin URl eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>
-        <source>Show the LightPayCoin Core help message to get a list with possible LightPayCoin command-line options</source>
-        <translation>Vis hjelpetekster fra LightPayCoin kernen for at få en liste med mulige LightPayCoin kommandolinie-startparametre</translation>
+        <source>Show the ValinorCoin Core help message to get a list with possible ValinorCoin command-line options</source>
+        <translation>Vis hjelpetekster fra ValinorCoin kernen for at få en liste med mulige ValinorCoin kommandolinie-startparametre</translation>
     </message>
     <message>
-        <source>LightPayCoin Core client</source>
-        <translation>LightPayCoin kerneklient</translation>
+        <source>ValinorCoin Core client</source>
+        <translation>ValinorCoin kerneklient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1114,8 +1114,8 @@ Adresse: %4
         <translation>Ret afsenderadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LightPayCoin address.</source>
-        <translation>Den indtastede adresse %1 er ikke en gyldig LightPayCoin adresse</translation>
+        <source>The entered address "%1" is not a valid ValinorCoin address.</source>
+        <translation>Den indtastede adresse %1 er ikke en gyldig ValinorCoin adresse</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1160,16 +1160,16 @@ Adresse: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin kerne</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin kerne</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About LightPayCoin Core</source>
-        <translation>om LightPayCoin kerne</translation>
+        <source>About ValinorCoin Core</source>
+        <translation>om ValinorCoin kerne</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1215,16 +1215,16 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to LightPayCoin Core.</source>
-        <translation>Velkommen til LightPayCoin kerne</translation>
+        <source>Welcome to ValinorCoin Core.</source>
+        <translation>Velkommen til ValinorCoin kerne</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where LightPayCoin Core will store its data.</source>
-        <translation>Da det er første gang programmet startes, kan De vælge hvor LightPayCoin kernen skal lagre sine data</translation>
+        <source>As this is the first time the program is launched, you can choose where ValinorCoin Core will store its data.</source>
+        <translation>Da det er første gang programmet startes, kan De vælge hvor ValinorCoin kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>LightPayCoin Core will download and store a copy of the LightPayCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>LightPayCoin kernen vil nu hente og gemme en kopi af LightPayCoin blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
+        <source>ValinorCoin Core will download and store a copy of the ValinorCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ValinorCoin kernen vil nu hente og gemme en kopi af ValinorCoin blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1235,8 +1235,8 @@ Adresse: %4
         <translation>Anvend en mappe valgt af brugeren</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin kerne</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin kerne</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1377,12 +1377,12 @@ Adresse: %4
         <translation>Indtast modtageradresse</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other LightPayCoin addresses after it matures.
-To Add: enter percentage to give and LightPayCoin address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ValinorCoin addresses after it matures.
+To Add: enter percentage to give and ValinorCoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre LightPayCoin adressater når den er tilstrækkelig stor. 
-For at tilføje: Indtast procentsatsen De ønsker at overføre samt den LightPayCoin adresse som skal modtage via Multisendsystemet. 
+        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre ValinorCoin adressater når den er tilstrækkelig stor. 
+For at tilføje: Indtast procentsatsen De ønsker at overføre samt den ValinorCoin adresse som skal modtage via Multisendsystemet. 
 For at fjerne: Indtast adressen som skal slettes og klik på slet. 
 Multisend vil ikke fungere med mindre systemet er aktiveret.</translation>
     </message>
@@ -1520,48 +1520,48 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Vælg tilsløringsniveau</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 LPC</source>
-        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 10000 LPC</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 VPC</source>
+        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 10000 VPC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 LPC</source>
-        <translation>Brug 8 separate masternoder for at tilsløre op til 10000 LPC</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 VPC</source>
+        <translation>Brug 8 separate masternoder for at tilsløre op til 10000 VPC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Brug 16 separate masternoder</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 LPC to anonymize 10000 LPC</source>
-        <translation>Dette valg er det hurtigste og vil koste i omegnen af 0.025 LPC for at anonymiser 10000 LPC</translation>
+        <source>This option is the quickest and will cost about ~0.025 VPC to anonymize 10000 VPC</source>
+        <translation>Dette valg er det hurtigste og vil koste i omegnen af 0.025 VPC for at anonymiser 10000 VPC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 LPC to anonymize 10000 LPC</source>
-        <translation>Dette valg er relativt hurtigt og vil koste i omegnen af 0.05 LPC for at anonymiser 10000 LPC</translation>
+        <source>This option is moderately fast and will cost about 0.05 VPC to anonymize 10000 VPC</source>
+        <translation>Dette valg er relativt hurtigt og vil koste i omegnen af 0.05 VPC for at anonymiser 10000 VPC</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Denne mulighed er den langsomste og det mest sikre valg. Valg af maksimal tilsløring vil koste</translation>
     </message>
     <message>
-        <source>0.1 LPC per 10000 LPC you anonymize.</source>
-        <translation>0.1 pr 10000 LPC for at tilsløre.</translation>
+        <source>0.1 VPC per 10000 VPC you anonymize.</source>
+        <translation>0.1 pr 10000 VPC for at tilsløre.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Tilsløringskonfiguration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening LightPayCoin's configuration screen.</source>
-        <translation>Tilsløring blev sat til grundlæggende (%1 og 2 gennemløb) De kan ændre dette hvornår De vil ved at åbne LightPayCoin konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening ValinorCoin's configuration screen.</source>
+        <translation>Tilsløring blev sat til grundlæggende (%1 og 2 gennemløb) De kan ændre dette hvornår De vil ved at åbne ValinorCoin konfigurationsbillede.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening LightPayCoin's configuration screen.</source>
-        <translation>Tilsløring blev sat til høj (%1 og 8 gennemløb) De kan ændre dette hvornår De vil ved at åbne LightPayCoin konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening ValinorCoin's configuration screen.</source>
+        <translation>Tilsløring blev sat til høj (%1 og 8 gennemløb) De kan ændre dette hvornår De vil ved at åbne ValinorCoin konfigurationsbillede.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening LightPayCoin's configuration screen.</source>
-        <translation>Tilsløring blev sat til maksimum (%1 og 16 gennemløb) De kan ændre dette hvornår De vil ved at åbne LightPayCoin konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening ValinorCoin's configuration screen.</source>
+        <translation>Tilsløring blev sat til maksimum (%1 og 16 gennemløb) De kan ændre dette hvornår De vil ved at åbne ValinorCoin konfigurationsbillede.</translation>
     </message>
 </context>
 <context>
@@ -1622,8 +1622,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Hvis De slår "brug af ubekræftede penge tilbage" vil penge tilbage &lt;br/&gt; ikke kunne benyttes før transaktionen er bekræftet mindst en gang. &lt;br/&gt;Dette har også indflydelse på opgørelsen af saldoen.</translation>
     </message>
     <message>
-        <source>Automatically open the LightPayCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn LightPayCoin klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
+        <source>Automatically open the ValinorCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn ValinorCoin klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1642,12 +1642,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically start LightPayCoin after logging in to the system.</source>
-        <translation>Start LightPayCoin automatisk, når der logges på systemet</translation>
+        <source>Automatically start ValinorCoin after logging in to the system.</source>
+        <translation>Start ValinorCoin automatisk, når der logges på systemet</translation>
     </message>
     <message>
-        <source>&amp;Start LightPayCoin on system login</source>
-        <translation>&amp;start LightPayCoin når der logges på systemet</translation>
+        <source>&amp;Start ValinorCoin on system login</source>
+        <translation>&amp;start ValinorCoin når der logges på systemet</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1662,8 +1662,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>når dette antal er nået slås tilsløringsfunktonen fra. </translation>
     </message>
     <message>
-        <source>Amount of LightPayCoin to keep anonymized</source>
-        <translation>Antallet af LightPayCoin som skal holdes tilslørede</translation>
+        <source>Amount of ValinorCoin to keep anonymized</source>
+        <translation>Antallet af ValinorCoin som skal holdes tilslørede</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1690,8 +1690,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>&amp;netværk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting LightPayCoin.</source>
-        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang LightPayCoin klienten startes</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ValinorCoin.</source>
+        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang ValinorCoin klienten startes</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1704,8 +1704,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Connect to the LightPayCoin network through a SOCKS5 proxy.</source>
-        <translation>Tilslut LightPayCoin netværket gennem en SOCKS5 PROXY</translation>
+        <source>Connect to the ValinorCoin network through a SOCKS5 proxy.</source>
+        <translation>Tilslut ValinorCoin netværket gennem en SOCKS5 PROXY</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1859,8 +1859,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Saldi</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the LightPayCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med LightPayCoin netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ValinorCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med ValinorCoin netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1903,8 +1903,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Sløret beløb</translation>
     </message>
     <message>
-        <source>0 LPC / 0 Rounds</source>
-        <translation>0 LPC / 0 gennemløb</translation>
+        <source>0 VPC / 0 Rounds</source>
+        <translation>0 VPC / 0 gennemløb</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2060,10 +2060,10 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
     </message>
     <message>
         <source>Cannot start lightpaycoin: click-to-pay handler</source>
-        <translation>Kan ikke starte LightPayCoin "klik for at betale" systemet</translation>
+        <translation>Kan ikke starte ValinorCoin "klik for at betale" systemet</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid LightPayCoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid ValinorCoin address or malformed URI parameters.</source>
         <translation>URl kan ikke fortolkes! Det kan skyldes en ugyldig adresse, eller forkerte URl parametre.</translation>
     </message>
     <message>
@@ -2149,8 +2149,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a LightPayCoin address (e.g. %1)</source>
-        <translation>Indtast en LightPayCoin adresse (F.eks. %1)</translation>
+        <source>Enter a ValinorCoin address (e.g. %1)</source>
+        <translation>Indtast en ValinorCoin adresse (F.eks. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2283,8 +2283,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the LightPayCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn LightPayCoin debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
+        <source>Open the ValinorCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn ValinorCoin debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2451,8 +2451,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Ud:</translation>
     </message>
     <message>
-        <source>Welcome to the LightPayCoin RPC console.</source>
-        <translation>Velkommen til LightPayCoin RPC konsollet</translation>
+        <source>Welcome to the ValinorCoin RPC console.</source>
+        <translation>Velkommen til ValinorCoin RPC konsollet</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2522,12 +2522,12 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Valgfri opmærkning som tilknyttes den nye modtageradresse.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the LightPayCoin network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på LightPayCoin netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ValinorCoin network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på ValinorCoin netværket.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the LightPayCoin network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på LightPayCoin netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the ValinorCoin network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på ValinorCoin netværket.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2759,8 +2759,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>UTXO størrelse:</translation>
     </message>
     <message>
-        <source>0 LPC</source>
-        <translation>0 LPC</translation>
+        <source>0 VPC</source>
+        <translation>0 VPC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2807,15 +2807,15 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Bekræftelsestid</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uLPCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLPCs in fee,&lt;br /&gt;while "at least" pays 1000 uLPCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uLPCs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uLPC i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uLPCs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uVPCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVPCs in fee,&lt;br /&gt;while "at least" pays 1000 uVPCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uVPCs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uVPC i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uVPCs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uLPCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLPCs in fee,&lt;br /&gt;while "total at least" pays 1000 uLPCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uLPCs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uLPC i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uLPCs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uVPCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uVPCs in fee,&lt;br /&gt;while "total at least" pays 1000 uVPCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uVPCs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uVPC i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uVPCs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for LightPayCoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ValinorCoin transactions than the network can process.</source>
         <translation>Betaling af mindste transaktionsgebyr vil være fint så længe der er færre transaktioner end der er plads til i blokkene. &lt;br /&gt; Men opmærksomheden henledes på, at det kan resultere i en transaktion der aldrig bliver bekræftet i det øjeblik der er større behov for transaktioner end netværket har plads til. </translation>
     </message>
     <message>
@@ -2919,8 +2919,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Anonyme saldi</translation>
     </message>
     <message>
-        <source>Warning: Invalid LightPayCoin address</source>
-        <translation>Advarsel! Ugyldig LightPayCoin adresse</translation>
+        <source>Warning: Invalid ValinorCoin address</source>
+        <translation>Advarsel! Ugyldig ValinorCoin adresse</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3026,8 +3026,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Betal &amp;Til</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to send the payment to</source>
-        <translation>LightPayCoin adressen, som betalingen skal sendes til</translation>
+        <source>The ValinorCoin address to send the payment to</source>
+        <translation>ValinorCoin adressen, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3066,8 +3066,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Besked</translation>
     </message>
     <message>
-        <source>A message that was attached to the LightPayCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the LightPayCoin network.</source>
-        <translation>En besked, der var vedhæftet til LightPayCoin: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
+        <source>A message that was attached to the ValinorCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the ValinorCoin network.</source>
+        <translation>En besked, der var vedhæftet til ValinorCoin: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3093,8 +3093,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>LightPayCoin Core is shutting down...</source>
-        <translation>LightPayCoin kernen lukker ned</translation>
+        <source>ValinorCoin Core is shutting down...</source>
+        <translation>ValinorCoin kernen lukker ned</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3116,8 +3116,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>De kan underskrive beskeder med Deres adresser or at bevise ejerskab. Vær forsigtig med at underskrive noget De er usikker på såsom forsøg op at narre Dem til at oplyse Deres identitet. Skriv kun under på noget De kan stå inde for, og som De er enig i. </translation>
     </message>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>Den LightPayCoin adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>Den ValinorCoin adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3148,16 +3148,16 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne LightPayCoin adresse.</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne ValinorCoin adresse.</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne LightPayCoin adresse</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne ValinorCoin adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige LightPayCoin adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige ValinorCoin adresse.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3243,8 +3243,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin kerne</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin kerne</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3259,8 +3259,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>DASH "core" udviklerne</translation>
     </message>
     <message>
-        <source>The LightPayCoin Core developers</source>
-        <translation>LightPayCoin "core" udviklerne</translation>
+        <source>The ValinorCoin Core developers</source>
+        <translation>ValinorCoin "core" udviklerne</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3791,8 +3791,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Send mønter</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 LPC.</source>
-        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1LPC.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 VPC.</source>
+        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1VPC.</translation>
     </message>
 </context>
 <context>
@@ -3861,8 +3861,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Forbind til den opgivne adresse og lyt efter JSON-.RPC forbindelser. Brug [host]:port notation for IPv6. Der kan indsættes flere linier (standard: Forbind til alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. LightPayCoin Core is probably already running.</source>
-        <translation>Kan ikke låse datamappen %s. LightPayCoin core kører sandsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. ValinorCoin Core is probably already running.</source>
+        <translation>Kan ikke låse datamappen %s. ValinorCoin core kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3881,8 +3881,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Slet alle tegnebogens transaktioner og genskab kun fra blokkæden ved at tilføje -rescan i forbindes med opstart.</translation>
     </message>
     <message>
-        <source>Disable all LightPayCoin specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Slå alle LightPayCoin funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
+        <source>Disable all ValinorCoin specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Slå alle ValinorCoin funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3926,12 +3926,12 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Udfør en kommando når den bedste blok ændres (%s in cmd erstattes med blok hashen)</translation>
     </message>
     <message>
-        <source>Fees (in LPC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (in LPC/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
+        <source>Fees (in VPC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (in VPC/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LPC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebyrer (in LPC/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
+        <source>Fees (in VPC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (in VPC/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3983,7 +3983,7 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
     </message>
     <message>
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere LightPayCoin</translation>
+        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere ValinorCoin</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
@@ -3991,7 +3991,7 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
     </message>
     <message>
         <source>Provide liquidity to Obfuscation by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Tilfør tilsløring likviditet  ved at tilføje flere LightPayCoin løbende (0-100, default:%u, 1=meget hyppigt, høje gebyrer, 100=sjældent, lave gebyrer)</translation>
+        <translation>Tilfør tilsløring likviditet  ved at tilføje flere ValinorCoin løbende (0-100, default:%u, 1=meget hyppigt, høje gebyrer, 100=sjældent, lave gebyrer)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
@@ -4043,7 +4043,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "LightPayCoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "ValinorCoin Alert" admin@foo.com
 </source>
         <translation>For at bruge lightpaycoind eller -server muligheden sammen med lightpaycoin-qt skal der angives et rpc kodeord i konfigurationsfilen:
 %s
@@ -4054,24 +4054,24 @@ rpcpasswrd=%s
 Brugernavn og kodeord MÅ IKKE VÆRE ENS!
 Hvis filen ikke eksisterer, opret den med sikkerhedsindstillingen - ejer kun læserettigheder tilladelsen.
 Det anbefales tillige at vælge alertnotify til for at blive orienteret om eventuelle problemer.
-For eksempel: alertnotify=Echo %% | mail - s "LightPayCoin ALARM!" e-mail@administrator.dk
+For eksempel: alertnotify=Echo %% | mail - s "ValinorCoin ALARM!" e-mail@administrator.dk
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. LightPayCoin Core is probably already running.</source>
-        <translation>Det var ikke muligt at forbinde %s på denne computer. LightPayCoin kører sandsynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. ValinorCoin Core is probably already running.</source>
+        <translation>Det var ikke muligt at forbinde %s på denne computer. ValinorCoin kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret designeret indestående for at gennemføre denne transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 LPC.</source>
-        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 LPC.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 VPC.</source>
+        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 VPC.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 LPC.</source>
-        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 LPC.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 VPC.</source>
+        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 VPC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4086,8 +4086,8 @@ For eksempel: alertnotify=Echo %% | mail - s "LightPayCoin ALARM!" e-mail@admini
         <translation>Advarsel! -paytxfee er sat meget højt. Det er dette gebyr De kommer til at betale for transaktionen, hvis De gennemfører. </translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong LightPayCoin Core will not work properly.</source>
-        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil LightPayCoin core ikke fungere ordentligt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong ValinorCoin Core will not work properly.</source>
+        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil ValinorCoin core ikke fungere ordentligt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4118,8 +4118,8 @@ For eksempel: alertnotify=Echo %% | mail - s "LightPayCoin ALARM!" e-mail@admini
         <translation>Der skal angives en masternodeprivkey i konfigurationen. For mere information, se i dokumentationen.</translation>
     </message>
     <message>
-        <source>(39797 could be used only on mainnet)</source>
-        <translation>(39797 kunne kun bruges på hovednettet)</translation>
+        <source>(39777 could be used only on mainnet)</source>
+        <translation>(39777 kunne kun bruges på hovednettet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4130,8 +4130,8 @@ For eksempel: alertnotify=Echo %% | mail - s "LightPayCoin ALARM!" e-mail@admini
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 39797 for mainnet)</source>
-        <translation>(skal være 39797 for hovednettet)</translation>
+        <source>(must be 39777 for mainnet)</source>
+        <translation>(skal være 39777 for hovednettet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -4234,8 +4234,8 @@ For eksempel: alertnotify=Echo %% | mail - s "LightPayCoin ALARM!" e-mail@admini
         <translation>Copyright (C) 2014-%i The Dash Core Developers </translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The LightPayCoin Core Developers</source>
-        <translation>Copyright (C) 2015-%i The LightPayCoin Core Developers</translation>
+        <source>Copyright (C) 2015-%i The ValinorCoin Core Developers</source>
+        <translation>Copyright (C) 2015-%i The ValinorCoin Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4306,8 +4306,8 @@ For eksempel: alertnotify=Echo %% | mail - s "LightPayCoin ALARM!" e-mail@admini
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen er beskadiget</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of LightPayCoin Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af LightPayCoin core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ValinorCoin Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af ValinorCoin core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4358,8 +4358,8 @@ For eksempel: alertnotify=Echo %% | mail - s "LightPayCoin ALARM!" e-mail@admini
         <translation>Læsning af blokken mislykkedes</translation>
     </message>
     <message>
-        <source>Fee (in LPC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i LPC/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
+        <source>Fee (in VPC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i VPC/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4418,8 +4418,8 @@ For eksempel: alertnotify=Echo %% | mail - s "LightPayCoin ALARM!" e-mail@admini
         <translation>Info:</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. LightPayCoin Core is shutting down.</source>
-        <translation>Initiering af sanitetskontrollen fejlede. LightPayCoin core lukker ned. </translation>
+        <source>Initialization sanity check failed. ValinorCoin Core is shutting down.</source>
+        <translation>Initiering af sanitetskontrollen fejlede. ValinorCoin core lukker ned. </translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4494,8 +4494,8 @@ For eksempel: alertnotify=Echo %% | mail - s "LightPayCoin ALARM!" e-mail@admini
         <translation>Forsøg at gennemtvinge reparation af korrumperet blokkæde</translation>
     </message>
     <message>
-        <source>Keep N LPC anonymized (default: %u)</source>
-        <translation>Behold N LPC anonymiserede (default: %u)</translation>
+        <source>Keep N VPC anonymized (default: %u)</source>
+        <translation>Behold N VPC anonymiserede (default: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -4994,8 +4994,8 @@ For eksempel: alertnotify=Echo %% | mail - s "LightPayCoin ALARM!" e-mail@admini
         <translation>Tegnebogen er låst</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart LightPayCoin Core to complete</source>
-        <translation>Tegnebogen måtte genskrives. Genstart LightPayCoin core for at gøre færdig</translation>
+        <source>Wallet needed to be rewritten: restart ValinorCoin Core to complete</source>
+        <translation>Tegnebogen måtte genskrives. Genstart ValinorCoin core for at gøre færdig</translation>
     </message>
     <message>
         <source>Wallet options:</source>

@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your LightPayCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun LightPayCoin osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun ValinorCoin osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your LightPayCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun LightPayCoin osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun ValinorCoin osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>LightPayCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LPCs from being stolen by malware infecting your computer.</source>
-        <translation>LightPayCoin sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella LPCien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
+        <translation>ValinorCoin sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella VPCien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LPC&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki LPCisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki VPCisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -244,8 +244,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>LightPayCoin osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>ValinorCoin osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -276,8 +276,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän LightPayCoin osoitteen</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän ValinorCoin osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -300,12 +300,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>LightPayCoin osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>ValinorCoin osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla LightPayCoin osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla ValinorCoin osoitteella.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -591,12 +591,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Ydin</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a LightPayCoin address</source>
-        <translation>Lähetä kolikkoja LightPayCoin osoitteeseen</translation>
+        <source>Send coins to a ValinorCoin address</source>
+        <translation>Lähetä kolikkoja ValinorCoin osoitteeseen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lightpaycoin: URIs)</source>
@@ -611,24 +611,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About LightPayCoin Core</source>
-        <translation>LightPayCoin Core &amp;ytimestä</translation>
+        <source>&amp;About ValinorCoin Core</source>
+        <translation>ValinorCoin Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about LightPayCoin Core</source>
-        <translation>Näytä tietoja LightPayCoin Ytimestä</translation>
+        <source>Show information about ValinorCoin Core</source>
+        <translation>Näytä tietoja ValinorCoin Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for LightPayCoin</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja LightPayCoin:lle</translation>
+        <source>Modify configuration options for ValinorCoin</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja ValinorCoin:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your LightPayCoin addresses to prove you own them</source>
+        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LightPayCoin addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä LightPayCoin osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä ValinorCoin osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -659,8 +659,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a LightPayCoin: URI or payment request</source>
-        <translation>Avaa LightPayCoin: URI tai pyydä maksua</translation>
+        <source>Open a ValinorCoin: URI or payment request</source>
+        <translation>Avaa ValinorCoin: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -671,12 +671,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the LightPayCoin Core help message to get a list with possible LightPayCoin command-line options</source>
-        <translation>Näytä LightPayCoin Ydin apuviesti saadaksesi lista mahdollisista LightPayCoin komentolinja komennoista.</translation>
+        <source>Show the ValinorCoin Core help message to get a list with possible ValinorCoin command-line options</source>
+        <translation>Näytä ValinorCoin Ydin apuviesti saadaksesi lista mahdollisista ValinorCoin komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>LightPayCoin Core client</source>
-        <translation>LightPayCoin Ydin asiakasohjelma</translation>
+        <source>ValinorCoin Core client</source>
+        <translation>ValinorCoin Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -934,8 +934,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Ydin</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -953,12 +953,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to LightPayCoin Core.</source>
-        <translation>Tervetuloa LightPayCoin Ytimeen.</translation>
+        <source>Welcome to ValinorCoin Core.</source>
+        <translation>Tervetuloa ValinorCoin Ytimeen.</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Ydin</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1135,32 +1135,32 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 LPC</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 LightPayCoin</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 VPC</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 ValinorCoin</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 LPC</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 LightPayCoin</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 VPC</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 ValinorCoin</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 LPC to anonymize 10000 LPC</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 LPC anonymoidaksesi 10000 LightPayCoin</translation>
+        <source>This option is the quickest and will cost about ~0.025 VPC to anonymize 10000 VPC</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 VPC anonymoidaksesi 10000 ValinorCoin</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 LPC to anonymize 10000 LPC</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 LightPayCoin anonymoidaksesi 10000 LightPayCoin</translation>
+        <source>This option is moderately fast and will cost about 0.05 VPC to anonymize 10000 VPC</source>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 ValinorCoin anonymoidaksesi 10000 ValinorCoin</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 LPC per 10000 LPC you anonymize.</source>
-        <translation>0.1 per 10000 LightPayCoin, jotka anonymisoit.</translation>
+        <source>0.1 VPC per 10000 VPC you anonymize.</source>
+        <translation>0.1 per 10000 ValinorCoin, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1209,16 +1209,16 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start LightPayCoin after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä LightPayCoin kun kirjaudut sisään.</translation>
+        <source>Automatically start ValinorCoin after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä ValinorCoin kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start LightPayCoin on system login</source>
-        <translation>&amp;Aloita LightPayCoin järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start ValinorCoin on system login</source>
+        <translation>&amp;Aloita ValinorCoin järjestelmän kirjautumisessa</translation>
     </message>
     <message>
-        <source>Amount of LightPayCoin to keep anonymized</source>
-        <translation>LightPayCoin määrä joka pidetään anonymisoituna</translation>
+        <source>Amount of ValinorCoin to keep anonymized</source>
+        <translation>ValinorCoin määrä joka pidetään anonymisoituna</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1237,12 +1237,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting LightPayCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting ValinorCoin.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the LightPayCoin network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä LightPayCoin verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the ValinorCoin network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä ValinorCoin verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1475,8 +1475,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the LightPayCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa LightPayCoin debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the ValinorCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa ValinorCoin debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1587,8 +1587,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the LightPayCoin RPC console.</source>
-        <translation>Tervetuloa LightPayCoin RPC konsoliin.</translation>
+        <source>Welcome to the ValinorCoin RPC console.</source>
+        <translation>Tervetuloa ValinorCoin RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1630,12 +1630,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the LightPayCoin network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana LightPayCoin verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ValinorCoin network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana ValinorCoin verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the LightPayCoin network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana LightPayCoin  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the ValinorCoin network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana ValinorCoin  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1835,8 +1835,8 @@ Please check the address and try again.</source>
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 LPC</source>
-        <translation>0 LPC</translation>
+        <source>0 VPC</source>
+        <translation>0 VPC</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1919,8 +1919,8 @@ Please check the address and try again.</source>
         <translation>käyttää</translation>
     </message>
     <message>
-        <source>Warning: Invalid LightPayCoin address</source>
-        <translation>Varoitus: Virheellinen LightPayCoin osoite</translation>
+        <source>Warning: Invalid ValinorCoin address</source>
+        <translation>Varoitus: Virheellinen ValinorCoin osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -1966,8 +1966,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to send the payment to</source>
-        <translation>LightPayCoin osoite johon maksu lähetetään</translation>
+        <source>The ValinorCoin address to send the payment to</source>
+        <translation>ValinorCoin osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2009,8 +2009,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>LightPayCoin Core is shutting down...</source>
-        <translation>LightPayCoin core sammuu...</translation>
+        <source>ValinorCoin Core is shutting down...</source>
+        <translation>ValinorCoin core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2028,8 +2028,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>LightPayCoin osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>ValinorCoin osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2060,16 +2060,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän LightPayCoin osoitteen</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän ValinorCoin osoitteen</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>LightPayCoin osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>ValinorCoin osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla LightPayCoin osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla ValinorCoin osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2151,8 +2151,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Ydin</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2167,8 +2167,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The LightPayCoin Core developers</source>
-        <translation>LightPayCoin core kehittäjät</translation>
+        <source>The ValinorCoin Core developers</source>
+        <translation>ValinorCoin core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2521,8 +2521,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of LightPayCoin Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version LightPayCoin Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ValinorCoin Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version ValinorCoin Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

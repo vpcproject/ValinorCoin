@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "LightPayCoin"
-            VALUE "FileDescription",    "LightPayCoin Core (OSS GUI client for LightPayCoin)"
+            VALUE "CompanyName",        "ValinorCoin"
+            VALUE "FileDescription",    "ValinorCoin Core (OSS GUI client for ValinorCoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "lightpaycoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "lightpaycoin-qt.exe"
-            VALUE "ProductName",        "LightPayCoin Core"
+            VALUE "ProductName",        "ValinorCoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

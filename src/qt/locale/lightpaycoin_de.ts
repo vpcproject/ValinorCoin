@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie LightPayCoin überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie ValinorCoin überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie LightPayCoin empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie ValinorCoin empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your LightPayCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre LightPayCoin-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie LightPayCoin überweisen.</translation>
+        <source>These are your ValinorCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre ValinorCoin-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie ValinorCoin überweisen.</translation>
     </message>
     <message>
-        <source>These are your LightPayCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre LightPayCoin-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your ValinorCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre ValinorCoin-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>LightPayCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LPCs from being stolen by malware infecting your computer.</source>
-        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer LPCs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <source>ValinorCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your VPCs from being stolen by malware infecting your computer.</source>
+        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer VPCs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Sind Sie sich sicher, dass Sie ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LPC&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre LPCs verlieren&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VPC&lt;/b&gt;!</source>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre VPCs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -240,15 +240,15 @@
     </message>
     <message>
         <source>Enter a Lightpaycoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Gib eine LightPayCoin Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
+        <translation>Gib eine ValinorCoin Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>LightPayCoin Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>ValinorCoin Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese LightPayCoin Adresse besitzt</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese ValinorCoin Adresse besitzt</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Geben Sie den BIP 38 verschlüsselten privaten Schlüssel ein. Geben Sie die Passphrase im mittleren Feld ein. Klicken Sie auf Entschlüsselung, um den privaten Schlüssel zu berechnen. Nachdem der Schlüssel entschlüsselt wurde, klicken Sie auf 'Adresse importieren', fügen Sie diesen privaten Schlüssel der Wallet hinzu.</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>Die LightPayCoin Adresse mit welcher die Nachricht signiert wurde.</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>Die ValinorCoin Adresse mit welcher die Nachricht signiert wurde.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen LightPayCoin-Adresse signiert wurde.</translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen ValinorCoin-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,12 +602,12 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a LightPayCoin address</source>
-        <translation>An eine LightPayCoin-Adresse überweisen</translation>
+        <source>Send coins to a ValinorCoin address</source>
+        <translation>An eine ValinorCoin-Adresse überweisen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lightpaycoin: URIs)</source>
@@ -622,24 +622,24 @@
         <translation>Masternodes durchsuchen</translation>
     </message>
     <message>
-        <source>&amp;About LightPayCoin Core</source>
-        <translation>Über.LightPayCoin Core</translation>
+        <source>&amp;About ValinorCoin Core</source>
+        <translation>Über.ValinorCoin Core</translation>
     </message>
     <message>
-        <source>Show information about LightPayCoin Core</source>
-        <translation>Zeigt Informationen über LightPayCoin Core</translation>
+        <source>Show information about ValinorCoin Core</source>
+        <translation>Zeigt Informationen über ValinorCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for LightPayCoin</source>
-        <translation>Konfiguration von LightPayCoin verändern</translation>
+        <source>Modify configuration options for ValinorCoin</source>
+        <translation>Konfiguration von ValinorCoin verändern</translation>
     </message>
     <message>
-        <source>Sign messages with your LightPayCoin addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer LightPayCoin-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <source>Sign messages with your ValinorCoin addresses to prove you own them</source>
+        <translation>Unterschreibt eine Nachricht mit Ihrer ValinorCoin-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LightPayCoin addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten LightPayCoin-Adresse signiert wurde</translation>
+        <source>Verify messages to ensure they were signed with specified ValinorCoin addresses</source>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten ValinorCoin-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Öffne Masternode Einstellungsdatei</translation>
     </message>
     <message>
-        <source>Open a LightPayCoin: URI or payment request</source>
-        <translation>Öffne eine LightPayCoin: URI or Zahlungsanfrage</translation>
+        <source>Open a ValinorCoin: URI or payment request</source>
+        <translation>Öffne eine ValinorCoin: URI or Zahlungsanfrage</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Blockchain Betrachter Fenster</translation>
     </message>
     <message>
-        <source>Show the LightPayCoin Core help message to get a list with possible LightPayCoin command-line options</source>
-        <translation>Zeige die LightPayCoin-Core Hilfe, um mögliche LightPayCoin Kommando-Zeilen-Optionen anzuzeigen</translation>
+        <source>Show the ValinorCoin Core help message to get a list with possible ValinorCoin command-line options</source>
+        <translation>Zeige die ValinorCoin-Core Hilfe, um mögliche ValinorCoin Kommando-Zeilen-Optionen anzuzeigen</translation>
     </message>
     <message>
-        <source>LightPayCoin Core client</source>
-        <translation>LightPayCoin Core Client</translation>
+        <source>ValinorCoin Core client</source>
+        <translation>ValinorCoin Core Client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1113,8 +1113,8 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LightPayCoin address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige LightPayCoin-Adresse.</translation>
+        <source>The entered address "%1" is not a valid ValinorCoin address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige ValinorCoin-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1159,16 +1159,16 @@ Adresse: %4</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About LightPayCoin Core</source>
-        <translation>Über LightPayCoin Core</translation>
+        <source>About ValinorCoin Core</source>
+        <translation>Über ValinorCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1214,16 +1214,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to LightPayCoin Core.</source>
-        <translation>Willkommen zu LightPayCoin Core.</translation>
+        <source>Welcome to ValinorCoin Core.</source>
+        <translation>Willkommen zu ValinorCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where LightPayCoin Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie LightPayCoin Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where ValinorCoin Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie ValinorCoin Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>LightPayCoin Core will download and store a copy of the LightPayCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>LightPayCoin Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>ValinorCoin Core will download and store a copy of the ValinorCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ValinorCoin Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1234,8 +1234,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1372,12 +1372,12 @@ Adresse: %4</translation>
         <translation>Zieladresse eingeben</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other LightPayCoin addresses after it matures.
-To Add: enter percentage to give and LightPayCoin address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ValinorCoin addresses after it matures.
+To Add: enter percentage to give and ValinorCoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen LightPayCoin-Adressen zu senden.
-Zum hinzufügen: Gebe den Prozentsätze ein, um die LightPayCoin-Adressen des MultiSend-Vektor hinzuzufügen.
+        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen ValinorCoin-Adressen zu senden.
+Zum hinzufügen: Gebe den Prozentsätze ein, um die ValinorCoin-Adressen des MultiSend-Vektor hinzuzufügen.
 Zum entfernen: Gebe die zu löschende Adresse ein und drücke löschen.
 MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translation>
     </message>
@@ -1572,8 +1572,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Verschleierter Betrag:</translation>
     </message>
     <message>
-        <source>0 LPC / 0 Rounds</source>
-        <translation>0 LPC / 0 Runden</translation>
+        <source>0 VPC / 0 Rounds</source>
+        <translation>0 VPC / 0 Runden</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1705,8 +1705,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a LightPayCoin address (e.g. %1)</source>
-        <translation>LightPayCoin-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a ValinorCoin address (e.g. %1)</source>
+        <translation>ValinorCoin-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1892,7 +1892,7 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>LPCs überweisen</translation>
+        <translation>VPCs überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1967,8 +1967,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>UTXO Größe:</translation>
     </message>
     <message>
-        <source>0 LPC</source>
-        <translation>0 LPC</translation>
+        <source>0 VPC</source>
+        <translation>0 VPC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2106,8 +2106,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to send the payment to</source>
-        <translation>LightPayCoin-Adresse, an die überwiesen werden soll</translation>
+        <source>The ValinorCoin address to send the payment to</source>
+        <translation>ValinorCoin-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2146,8 +2146,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the LightPayCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the LightPayCoin network.</source>
-        <translation>Eine an die LightPayCoin-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das LightPayCoin-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the ValinorCoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the ValinorCoin network.</source>
+        <translation>Eine an die ValinorCoin-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das ValinorCoin-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2173,8 +2173,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>LightPayCoin Core is shutting down...</source>
-        <translation>LightPayCoin Core wird beendet...</translation>
+        <source>ValinorCoin Core is shutting down...</source>
+        <translation>ValinorCoin Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2188,8 +2188,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Nachricht &amp;signieren</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>LightPayCoin Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The ValinorCoin address to sign the message with</source>
+        <translation>ValinorCoin Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2216,16 +2216,16 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese LightPayCoin Adresse besitzt</translation>
+        <source>Sign the message to prove you own this ValinorCoin address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese ValinorCoin Adresse besitzt</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>Die LightPayCoin Adresse mit welcher die Nachricht signiert wurde.</translation>
+        <source>The ValinorCoin address the message was signed with</source>
+        <translation>Die ValinorCoin Adresse mit welcher die Nachricht signiert wurde.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen LightPayCoin-Adresse signiert wurde.</translation>
+        <source>Verify the message to ensure it was signed with the specified ValinorCoin address</source>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen ValinorCoin-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2263,8 +2263,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>ValinorCoin Core</source>
+        <translation>ValinorCoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2279,8 +2279,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Die Dash Core Entwickler</translation>
     </message>
     <message>
-        <source>The LightPayCoin Core developers</source>
-        <translation>Die LightPayCoin Core Entwickler</translation>
+        <source>The ValinorCoin Core developers</source>
+        <translation>Die ValinorCoin Core Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2438,7 +2438,7 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte LPCs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine LPCs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte VPCs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine VPCs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2800,11 +2800,11 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>LPCs überweisen</translation>
+        <translation>VPCs überweisen</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 LPC.</source>
-        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 LPC begrenzt.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 VPC.</source>
+        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 VPC begrenzt.</translation>
     </message>
 </context>
 <context>
@@ -2997,8 +2997,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart LightPayCoin Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte LightPayCoin Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart ValinorCoin Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte ValinorCoin Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>
