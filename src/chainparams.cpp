@@ -57,7 +57,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (0, uint256(""));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1534950000, // * UNIX timestamp of last checkpoint block
+    1534942800, // * UNIX timestamp of last checkpoint block
     0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -67,7 +67,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1534950000,
+    1534942800,
     0,
     250};
 
@@ -75,7 +75,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1534950000,
+    1534942800,
     0,
     100};
 
@@ -134,7 +134,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1534950000;
+        genesis.nTime = 1534942800;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 2394236;
 
@@ -169,7 +169,7 @@ public:
         strSporkKey = "04a800fd21d66d68fb5ca725403cabed0af5b8b3940912ad09324d9cabe140c507829b68faa231c4f6a7f6761df69bdbdce5d86d78f34cbbb74d1339036b6d91c5";
         strObfuscationPoolDummyAddress = "";
 		
-        nStartMasternodePayments = 1534950000; //Wed, 22 Aug 2018 15:00:00 GMT
+        nStartMasternodePayments = 1534942800; // Wed, 22 Aug 2018 13:00:00 GMT
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
@@ -205,11 +205,11 @@ public:
         nMaturity = 15;
         nMasternodeCountDrift = 4;
         nMasternodeCollateralLimit = 1000;
-        nModifierUpdateBlock = 51197; //approx Mon, 21 Aug 2018 21:00:00 GMT
+        nModifierUpdateBlock = 51197; // Wed, 22 Aug 2018 13:00:00 GMT
         nMaxMoneyOut = 43199500 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1534950000;
+        genesis.nTime = 1534942800;
         genesis.nNonce = 2394236;
 
         hashGenesisBlock = genesis.GetHash();
@@ -245,7 +245,7 @@ public:
         nPoolMaxTransactions = 2;
         strSporkKey = "04ca864ee5e01ddf5ec4db13d7df059ce12741a9c90fb68ba2c84695b1d2217b143fbb86c9e7cd37a27161b1da170ed12b1d7ecfb8d84b70ebd2eab29f9871d556";
         strObfuscationPoolDummyAddress = "";
-        nStartMasternodePayments = 1534950000; //Wed, 22 Aug 2018 15:00:00 GMT
+        nStartMasternodePayments = 1534942800; // Wed, 22 Aug 2018 13:00:00 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -277,7 +277,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // ValinorCoin: 1 day
         nTargetSpacing = 1 * 60;        // ValinorCoin: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1534950000;
+        genesis.nTime = 1534942800;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 906460;
 
