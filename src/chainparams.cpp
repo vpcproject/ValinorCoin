@@ -54,18 +54,11 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("233ddf491e84f3483427164e15c653dd1c02b5859ed4db78f4c32833ee440b52"))
-    (1000, uint256("c8d3aef265cc8e445adb96873cf218e394dd82095930ff83e61daf71c28710ce"))
-    (5000, uint256("108b2ce4ace6b5b633cc722d6cbc4057aa96bb20eb06ffec07b399311242e277"))
-    (10000, uint256("136be2e5842b5dbdfb7d75000d4200a0426bfc6c58fb923cad3ce87527cdd6d2"))
-    (15000, uint256("caa4834cf2e26f5dc10b60d700b218442cbfc4edd2e20fd235e390e829d645b0"))
-    (20000, uint256("aba1fd686c3bfe5e0a3a43684e40b1239c99297720147a26c78392d83190c246"))
-    (30000, uint256("029ad2d91b42dd3bee0495df1c470a21de7871761a0f5ad36f9fd79477d011df"))
-    (39440, uint256("6a86761b7fb2bf4b63d06535890627ac46046f9080963a2e262a44396bc96f9f"));
+    (0, uint256("233ddf491e84f3483427164e15c653dd1c02b5859ed4db78f4c32833ee440b52"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1537364139, // * UNIX timestamp of last checkpoint block
-    7888000,          // * total number of transactions between genesis and last checkpoint
+    1537376400, // * UNIX timestamp of last checkpoint block
+    0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -74,7 +67,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1534942800,
+    1537376400,
     0,
     250};
 
@@ -82,7 +75,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1534942800,
+    1537376400,
     0,
     100};
 
@@ -141,7 +134,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1534942800;
+        genesis.nTime = 1537376400;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 2394236;
 
@@ -176,7 +169,7 @@ public:
         strSporkKey = "04a800fd21d66d68fb5ca725403cabed0af5b8b3940912ad09324d9cabe140c507829b68faa231c4f6a7f6761df69bdbdce5d86d78f34cbbb74d1339036b6d91c5";
         strObfuscationPoolDummyAddress = "Lpq9ED33YVTaq224dxKJRFQqCGMMKpsYpg";
 		
-        nStartMasternodePayments = 1534942800; // Wed, 22 Aug 2018 13:00:00 GMT
+        nStartMasternodePayments = 1537376400; // Wed, 22 Aug 2018 13:00:00 GMT
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
@@ -216,7 +209,7 @@ public:
         nMaxMoneyOut = 43199500 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1534942800;
+        genesis.nTime = 1537376400;
         genesis.nNonce = 2394236;
 
         hashGenesisBlock = genesis.GetHash();
@@ -252,7 +245,7 @@ public:
         nPoolMaxTransactions = 2;
         strSporkKey = "04ca864ee5e01ddf5ec4db13d7df059ce12741a9c90fb68ba2c84695b1d2217b143fbb86c9e7cd37a27161b1da170ed12b1d7ecfb8d84b70ebd2eab29f9871d556";
         strObfuscationPoolDummyAddress = "yFm5VZYdHX1gsLHMdFrAFnGVfgT4b87Zwq";
-        nStartMasternodePayments = 1534942800; // Wed, 22 Aug 2018 13:00:00 GMT
+        nStartMasternodePayments = 1537376400; // Wed, 22 Aug 2018 13:00:00 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -284,7 +277,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // ValinorCoin: 1 day
         nTargetSpacing = 1 * 60;        // ValinorCoin: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1534942800;
+        genesis.nTime = 1537376400;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 906460;
 
