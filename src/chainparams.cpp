@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("233ddf491e84f3483427164e15c653dd1c02b5859ed4db78f4c32833ee440b52"));
+    (0, uint256("1a48a3140b205c5a182662d6187fff375074c5f0455fb4f608238ca4939dd907"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1537376400, // * UNIX timestamp of last checkpoint block
@@ -139,7 +139,7 @@ public:
         genesis.nNonce = 2394236;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("233ddf491e84f3483427164e15c653dd1c02b5859ed4db78f4c32833ee440b52"));
+        assert(hashGenesisBlock == uint256("1a48a3140b205c5a182662d6187fff375074c5f0455fb4f608238ca4939dd907"));
         assert(genesis.hashMerkleRoot == uint256("c38c8f3b7220912c74bc2e196eb6d36bfab7b18e13f7be5b6c285474ca6af7dd"));
 
         vSeeds.push_back(CDNSSeedData("89.223.89.251", "89.223.89.251"));         // Single node address
@@ -169,7 +169,7 @@ public:
         strSporkKey = "04a800fd21d66d68fb5ca725403cabed0af5b8b3940912ad09324d9cabe140c507829b68faa231c4f6a7f6761df69bdbdce5d86d78f34cbbb74d1339036b6d91c5";
         strObfuscationPoolDummyAddress = "Lpq9ED33YVTaq224dxKJRFQqCGMMKpsYpg";
 		
-        nStartMasternodePayments = 1537376400; // Wed, 22 Aug 2018 13:00:00 GMT
+        nStartMasternodePayments = 1537376400; // Wed, 19 Sep 2018 20:00:00 GMT
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
@@ -213,7 +213,7 @@ public:
         genesis.nNonce = 2394236;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("233ddf491e84f3483427164e15c653dd1c02b5859ed4db78f4c32833ee440b52"));
+        assert(hashGenesisBlock == uint256("1a48a3140b205c5a182662d6187fff375074c5f0455fb4f608238ca4939dd907"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -283,7 +283,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 39773;
-        assert(hashGenesisBlock == uint256("8f2b1975f3f3823c28c48da5d7827144a42a785338ed3b492c038a41c8573b17"));
+        assert(hashGenesisBlock == uint256("970bcc07e0ed32e50e1e7a77e0b8d17720398f23c1a27d7fd073b096818d81ae"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
